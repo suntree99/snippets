@@ -17,6 +17,11 @@
     "prefix": "this",
     "body": "\\$this->$1->$2('$3');$0"
   },
+  
+  "PHP Tag": {
+    "prefix": "php",
+    "body": "<?php $1 ?>"
+  },
 
   "Inline echo": {
     "prefix": "phpp",
